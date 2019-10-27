@@ -1,0 +1,53 @@
+body {
+    background-image: url(https://images.pexels.com/photos/583846/pexels-photo-583846.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background: #00d358;
+    font-family: "Nunito", sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jumbotron {
+    background-size: cover;
+    background-color: rgb(255, 224, 66);
+}
+
+#main-container {
+    background-color: rgb(255, 224, 66)
+}
+
+#headers {
+    color: rgb(0, 14, 102);
+    border: 5px solid rgb(255, 224, 66);
+}
+
+#container-one .col-lg-4,
+#container-two .col-lg-4 {
+    background-color: crimson;
+}
+
+#img-cards {
+    background-color: rgb(0, 14, 102);
+}
+
+#container-one {
+    background-color: rgb(255, 224, 66);
+}
+
+#container-two {
+    background-color: rgb(255, 224, 66);
+}
+
+#footer-jumbotron {
+    margin-bottom: 0;
+    border: 5px solid rgb(0, 14, 102);
+}
+
+.new {
+    border: 5px solid green;
+    border-radius: 5px;
+}
+
+.row {
+    overflow: hidden;
+}
