@@ -4,6 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Baki Berke Baklan">
+    <meta name="description" content="Personal website of Baki Berke Baklan">
+    <meta name="keywords" content="software,engineering,programming,python,java,linux,coding,javascript,izmir,turkey,ai">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
@@ -32,7 +35,7 @@
                 <!-- Modal Declaration -->
                 <div class="modal fade" id="myModal">
                     <div class="modal-dialog">
-                        <div class="modal-content">
+                        <div class="modal-content" style="border:solid 3px crimson;">
 
                             <!-- Modal Header -->
                             <div class="modal-header" style="background-color: rgb(255, 224, 66);">
@@ -40,7 +43,7 @@
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                             </div>
 
-                            <!-- Modal body -->
+                            <!-- Modal body: Contact Form -->
                             <div class="modal-body" style="background-color: #00d358; border: 1px solid navy;">
                                 <div class="form-group">
                                     <label for="usr">Name:</label>
@@ -61,7 +64,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Modal footer -->
+                        <!-- Modal footer: Contains Buttons -->
                         <div class="modal-footer d-flex justify-content-around" style="background-color: rgb(255, 224, 66);">
                             <button type="button" class="btn btn-success" data-dismiss="modal">Send</button>
                             <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
@@ -72,8 +75,11 @@
         </div>
     </div>
     <br>
+
+    <!-- Skills Section-->
     <h3 class="display-3 bg-danger text-center" id="headers">Skills</h3>
     <br>
+    <!-- Skill container one -->
     <div class="container-fluid my-2 py-1" id="container-one">
         <div class="row mb-5">
             <div class="col-lg-4">
@@ -105,6 +111,8 @@
             </div>
         </div>
     </div>
+
+    <!-- Skill container two -->
     <div class="container-fluid my-2 py-1" id="container-two">
         <div class="row mb-5">
             <div class="col-lg-4">
@@ -195,17 +203,22 @@
     <a href="" class="btn btn-outline-success btn-sm">Download</a> will be used a lot-->
     <div class="d-flex flex-column">
 
+        <!--First project collapse-->
         <div class="d-flex text-primary projects my-1 justify-content-around">
             <h6 class="display-6 font-weight-bold my-auto">First project</h6>
             <a class="btn btn-success" data-toggle="collapse" href="#collapseProjectOne" role="button" aria-expanded="false" aria-controls="collapseProjectOne">Details <i class="fas fa-chevron-down"></i></a>
         </div>
         <div class="collapse projects-collapsed" id="collapseProjectOne">
             <div class="container-fluid bg-danger py-4 text-center">
+                <p>Still in progress
+                    <div class="spinner-border text-success"></div>
+                </p>
                 <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
                 <a href="" class="btn btn-outline-warning btn-sm">Download</a>
             </div>
         </div>
 
+        <!--Second project collapse-->
         <div class="d-flex text-primary projects my-1 justify-content-around">
             <a class="btn btn-success" data-toggle="collapse" href="#collapseProjectTwo" role="button" aria-expanded="false" aria-controls="collapseProjectTwo">Details <i class="fas fa-chevron-down"></i></a>
             <h6 class="display-6 font-weight-bold my-auto">Second project</h6>
@@ -217,6 +230,7 @@
             </div>
         </div>
 
+        <!--Third project collapse-->
         <div class="d-flex text-primary projects my-1 justify-content-around">
             <h6 class="display-6 font-weight-bold my-auto">Third project</h6>
             <a class="btn btn-success" data-toggle="collapse" href="#collapseProjectThree" role="button" aria-expanded="false" aria-controls="collapseProjectThree">Details <i class="fas fa-chevron-down"></i></a>
@@ -228,6 +242,7 @@
             </div>
         </div>
 
+        <!--Fourth project collapse-->
         <div class="d-flex text-primary projects my-1 justify-content-around">
             <a class="btn btn-success" data-toggle="collapse" href="#collapseProjectFour" role="button" aria-expanded="false" aria-controls="collapseProjectFour">Details <i class="fas fa-chevron-down"></i></a>
             <h6 class="display-6 font-weight-bold my-auto">Fourth project</h6>
@@ -239,6 +254,7 @@
             </div>
         </div>
 
+        <!--Fifth project collapse-->
         <div class="d-flex text-primary projects my-1 justify-content-around">
             <h6 class="display-6 font-weight-bold my-auto">Fifth project</h6>
             <a class="btn btn-success" data-toggle="collapse" href="#collapseProjectFive" role="button" aria-expanded="false" aria-controls="collapseProjectFive">Details <i class="fas fa-chevron-down"></i></a>
@@ -250,6 +266,7 @@
             </div>
         </div>
 
+        <!--Sixth project collapse-->
         <div class="d-flex text-primary projects my-1 justify-content-around">
             <a class="btn btn-success" data-toggle="collapse" href="#collapseProjectSix" role="button" aria-expanded="false" aria-controls="collapseProjectSix">Details <i class="fas fa-chevron-down"></i></a>
             <h6 class="display-6 font-weight-bold my-auto">Sixth project</h6>
@@ -263,6 +280,7 @@
 
     </div>
 
+    <!-- Footer: Contact Links -->
     <div class="jumbotron text-center mt-3" id="footer-jumbotron">
         <blockquote class="blockquote">
             <p>The most important thing in communication is hearing what isn't being said. The art of reading between the lines is a life long quest of the wise.</p>
