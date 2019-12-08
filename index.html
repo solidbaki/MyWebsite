@@ -18,7 +18,7 @@
         <div class="row">
             <img src="/img/main.jpg" class="mx-auto col-xs-6 col-sm-6 col-md-6" alt="I'm here c:">
             <div class="jumbotron mx-auto col-xs-6 col-sm-6 col-md-6">
-                <h1 class="display-4 text-center text-success"> Baki Berke Baklan
+                <h1 class="display-4 text-center text-success " > Baki Berke Baklan
                     <h2 class="text-muted text-center">Senior Software Engineering Student</h2>
                 </h1>
                 <hr class="my-5" style="border-width: 5px; border-color: crimson;">
@@ -29,9 +29,11 @@
                 <p class="text-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore sit nostrum vero assumenda dolor veniam accusantium! Nihil temporibus tenetur eligendi praesentium excepturi, repellat aut deserunt cupiditate voluptates minus veritatis.
                     Ipsum!Dolorem facere, magnam omnis deserunt vel minus nemo esse iusto quaerat. Assumenda, corrupti? Reprehenderit quaerat repellendus libero, autem similique quibusdam vel facilis labore nostrum. Esse perferendis et minus eaque doloremque.</p>
                 <br><br>
-                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
-                Contact with me!
-            </button>
+                <div class="container container-fluid my-auto text-center">
+                    <button type="button" class="btn btn-success text-center" data-toggle="modal" data-target="#myModal" disabled>
+                        Contact with me!
+                    </button>
+                </div>
                 <!-- Modal Declaration -->
                 <div class="modal fade" id="myModal">
                     <div class="modal-dialog">
@@ -86,7 +88,7 @@
                 <div class="card">
                     <img class="card-img-top" id="img-cards" src="img/python.png" alt="it's me baki xoxo">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Python</h5>
+                        <h5 class="card-title text-center skill-frames">Python</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corrupti quam magnam! Veniam, dolorum facere? Commodi, ut. Et, itaque quam!</p>
                     </div>
                 </div>
@@ -95,7 +97,7 @@
                 <div class="card">
                     <img class="card-img-top" id="img-cards" src="img/java.png" alt="it's me baki xoxo">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Java</h5>
+                        <h5 class="card-title text-center skill-frames">Java</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corrupti quam magnam! Veniam, dolorum facere? Commodi, ut. Et, itaque quam!</p>
                     </div>
                 </div>
@@ -104,7 +106,7 @@
                 <div class="card">
                     <img class="card-img-top" id="img-cards" src="img/linux.png" alt="it's me baki xoxo">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Linux</h5>
+                        <h5 class="card-title text-center skill-frames">Linux</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corrupti quam magnam! Veniam, dolorum facere? Commodi, ut. Et, itaque quam!</p>
                     </div>
                 </div>
@@ -113,13 +115,13 @@
     </div>
 
     <!-- Skill container two -->
-    <div class="container-fluid my-2 py-1" id="container-two">
+    <div class="container-fluid my-4 py-1" id="container-two">
         <div class="row mb-5">
             <div class="col-lg-4">
                 <div class="card">
                     <img class="card-img-top" id="img-cards" src="img/web.png" alt="it's me baki xoxo">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Web</h5>
+                        <h5 class="card-title text-center skill-frames">Web</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corrupti quam magnam! Veniam, dolorum facere? Commodi, ut. Et, itaque quam!</p>
                     </div>
                 </div>
@@ -128,7 +130,7 @@
                 <div class="card">
                     <img class="card-img-top" id="img-cards" src="img/brain.png" alt="it's me baki xoxo">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Algorithms and design patterns</h5>
+                        <h5 class="card-title text-center skill-frames">Algorithms and design patterns</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corrupti quam magnam! Veniam, dolorum facere? Commodi, ut. Et, itaque quam!</p>
                     </div>
                 </div>
@@ -137,7 +139,7 @@
                 <div class="card">
                     <img class="card-img-top" id="img-cards" src="img/linux.png" alt="it's me baki xoxo">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Linux</h5>
+                        <h5 class="card-title text-center skill-frames">Data visualization</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda corrupti quam magnam! Veniam, dolorum facere? Commodi, ut. Et, itaque quam!</p>
                     </div>
                 </div>
@@ -148,55 +150,61 @@
     <h3 class="display-3 bg-danger text-center" id="headers">Experiences</h3>
 
     <!-- Below is the first experience chunk -->
-    <div class="container-fluid py-4 row">
+    <div class="container-fluid py-4">
         <div class="d-flex">
-            <div class="col-md-8 bg-danger">
-                <h5 class="display-3 text-center pb-3 ">Hello</h5>
-                <hr class="py-3">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, expedita voluptatibus perferendis ut quae voluptatem. Placeat provident libero ipsam rerum repellendus consequuntur facere, laboriosam deleniti, error iusto saepe, aspernatur
-                    esse?
-                </p>
-            </div>
-            <div class="col-md-4 ">
-                <img class="img-fluid rounded d-block" src="https://images.unsplash.com/photo-1549211855-216bb040ccdb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80" alt="first">
+            <div class="row">
+                    <div class="col-md-8 bg-danger experience-cards">
+                            <h5 class="display-4 text-center my-3 ">Hello</h5>
+                            <hr class="py-3 hr-exp">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, expedita voluptatibus perferendis ut quae voluptatem. Placeat provident libero ipsam rerum repellendus consequuntur facere, laboriosam deleniti, error iusto saepe, aspernatur
+                                esse?
+                            </p>
+                        </div>
+                        <div class="col-md-4 ">
+                            <img class="img-fluid rounded d-block" src="https://images.unsplash.com/photo-1549211855-216bb040ccdb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80" alt="first">
+                        </div>
             </div>
         </div>
     </div>
 
     <!-- Below is the second experience chunk -->
-    <div class="container-fluid py-4 row">
-        <div class="d-flex">
-            <div class="col-md-4 ">
-                <img class="img-fluid rounded d-block" src="https://images.unsplash.com/photo-1549211855-216bb040ccdb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80" alt="first">
-            </div>
-            <div class="col-md-8 bg-danger">
-                <h5 class="display-3 text-center pb-3 ">Hello</h5>
-                <hr class="py-3">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, expedita voluptatibus perferendis ut quae voluptatem. Placeat provident libero ipsam rerum repellendus consequuntur facere, laboriosam deleniti, error iusto saepe, aspernatur
-                    esse?
-                </p>
+    <div class="container-fluid py-4">
+            <div class="d-flex flex-column-reverse">
+                <div class="row flex-column-reverse flex-md-row">
+                        <div class="col-md-4 ">
+                                <img class="img-fluid rounded d-block" src="https://images.unsplash.com/photo-1549211855-216bb040ccdb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80" alt="first">
+                            </div>
+                        <div class="col-md-8 bg-danger experience-cards">
+                                <h5 class="display-4 text-center my-3 ">Hello</h5>
+                                <hr class="py-3 hr-exp">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, expedita voluptatibus perferendis ut quae voluptatem. Placeat provident libero ipsam rerum repellendus consequuntur facere, laboriosam deleniti, error iusto saepe, aspernatur
+                                    esse?
+                                </p>
+                            </div>
+                </div>
             </div>
         </div>
-    </div>
 
     <!-- Below is the third experience chunk -->
-    <div class="container-fluid py-4 row">
-        <div class="d-flex">
-            <div class="col-md-8 bg-danger">
-                <h5 class="display-3 text-center pb-3 ">Hello</h5>
-                <hr class="py-3">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, expedita voluptatibus perferendis ut quae voluptatem. Placeat provident libero ipsam rerum repellendus consequuntur facere, laboriosam deleniti, error iusto saepe, aspernatur
-                    esse?
-                </p>
-            </div>
-            <div class="col-md-4 ">
-                <img class="img-fluid rounded d-block" src="https://images.unsplash.com/photo-1549211855-216bb040ccdb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80" alt="first">
+    <div class="container-fluid py-4">
+            <div class="d-flex">
+                <div class="row">
+                        <div class="col-md-8 bg-danger experience-cards">
+                                <h5 class="display-4 text-center my-3 ">Hello</h5>
+                                <hr class="py-3 hr-exp">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, expedita voluptatibus perferendis ut quae voluptatem. Placeat provident libero ipsam rerum repellendus consequuntur facere, laboriosam deleniti, error iusto saepe, aspernatur
+                                    esse?
+                                </p>
+                            </div>
+                            <div class="col-md-4 ">
+                                <img class="img-fluid rounded d-block" src="https://images.unsplash.com/photo-1549211855-216bb040ccdb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80" alt="first">
+                            </div>
+                </div>
             </div>
         </div>
-    </div>
 
     <h3 class="display-3 bg-danger text-center" id="headers">Projects</h3>
-    <p class="py-3 lead text-center bg-success" style="color: rgb(0, 14, 102);">If you want to check the source codes, please visit my
+    <p class="py-3  lead text-center bg-success" style="color: rgb(0, 14, 102);">If you want to check the source codes, please visit my
         <a href="https://github.com/solidbaki" class="text-warning">GitHub</a> account.
     </p>
     <!-- with aligned right and left  
@@ -205,7 +213,7 @@
 
         <!--First project collapse-->
         <div class="d-flex text-primary projects my-1 justify-content-around">
-            <h6 class="display-6 font-weight-bold my-auto">First project</h6>
+            <h6 class="display-6 font-weight-bold my-auto">Senior project: FastEvent</h6>
             <a class="btn btn-success" data-toggle="collapse" href="#collapseProjectOne" role="button" aria-expanded="false" aria-controls="collapseProjectOne">Details <i class="fas fa-chevron-down"></i></a>
         </div>
         <div class="collapse projects-collapsed" id="collapseProjectOne">
@@ -213,7 +221,7 @@
                 <p>Still in progress
                     <div class="spinner-border text-success"></div>
                 </p>
-                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
+                <p>Currently, I'm working on my senior project which is about event management/scheduling. The project group consists of four software engineering students. Documents will be shared when the project is done. </p>
                 <a href="" class="btn btn-outline-warning btn-sm">Download</a>
             </div>
         </div>
@@ -221,7 +229,7 @@
         <!--Second project collapse-->
         <div class="d-flex text-primary projects my-1 justify-content-around">
             <a class="btn btn-success" data-toggle="collapse" href="#collapseProjectTwo" role="button" aria-expanded="false" aria-controls="collapseProjectTwo">Details <i class="fas fa-chevron-down"></i></a>
-            <h6 class="display-6 font-weight-bold my-auto">Second project</h6>
+            <h6 class="display-6 font-weight-bold my-auto">Secret Diary Program</h6>
         </div>
         <div class="collapse projects-collapsed" id="collapseProjectTwo">
             <div class="container-fluid bg-danger py-4 text-center">
@@ -232,7 +240,7 @@
 
         <!--Third project collapse-->
         <div class="d-flex text-primary projects my-1 justify-content-around">
-            <h6 class="display-6 font-weight-bold my-auto">Third project</h6>
+            <h6 class="display-6 font-weight-bold my-auto">Third projectsdsds</h6>
             <a class="btn btn-success" data-toggle="collapse" href="#collapseProjectThree" role="button" aria-expanded="false" aria-controls="collapseProjectThree">Details <i class="fas fa-chevron-down"></i></a>
         </div>
         <div class="collapse projects-collapsed" id="collapseProjectThree">
